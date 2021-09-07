@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pre-commit = "*"
+black = "*"
+flake8 = "*"
+isort = "*"
+dmc-floss-gimp-color-palette-generator = {path = ".", editable = true}
+twine = "*"
+
+[packages]
+requests = "*"
+beautifulsoup4 = "*"
+
+[requires]
+python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true
